@@ -14,3 +14,7 @@ if(istrue){
 else{
     console.log("your computer is not blast")
 }
+
+//change the body color of the page and add inline css
+document.body.style.backgroundColor = "lightblue";
+document.body.style.color = "red";
