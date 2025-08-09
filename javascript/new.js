@@ -106,7 +106,7 @@
 // console.log(age %= grace);  // age = 5%2 = 1
 
 
-//Comparison Operators:
+// 3) Comparison Operators:
  /*
    == x=y equals to (= assignment operation)
   != x!=y not equal to
@@ -144,3 +144,37 @@ if (username === correctUsername && password === correctPassword) {
 
 //REPL (read evaluate print loop)
 
+// 4) Logical Operators:
+/*
+&& logical and (true when both conditions are true)
+|| logical or (true when at least one condition is true)
+! logical not (true when condition is false)
+*/
+
+/*
+a=b && b=a; // true
+a=b && b!=a; // false
+a=b || b=a; // true
+a=b || b!=a; // true
+a=!b; // false
+*/
+
+//Conditional Stattements
+/*
+if
+else if
+else
+switch
+*/
+
+let score = 85;
+
+if (score >= 90) {
+  console.log("Grade: A");
+} else if (score >= 80) {
+  console.log("Grade: B");
+} else if (score >= 70) {
+  console.log("Grade: C");
+} else {
+  console.log("Grade: F");
+}
