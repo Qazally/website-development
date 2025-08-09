@@ -18,3 +18,15 @@ else{
 //change the body color of the page and add inline css
 document.body.style.backgroundColor = "lightblue";
 document.body.style.color = "red";
+
+let username = prompt("Enter username:");
+let password = prompt("Enter password:");
+
+const correctUsername = "qazal";
+const correctPassword = "12345";
+
+if (username === correctUsername && password === correctPassword) {
+  alert("✅ Login successful!");
+} else {
+  alert("❌ Invalid username or password.");
+}

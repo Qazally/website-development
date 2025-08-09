@@ -126,9 +126,6 @@ if(age!=18){
 }
 
 //login validator
-//works on browser
-
-/*
 let username = prompt("Enter username:");
 let password = prompt("Enter password:");
 
@@ -140,7 +137,3 @@ if (username === correctUsername && password === correctPassword) {
 } else {
   alert("❌ Invalid username or password.");
 }
-*/
-
-//REPL (read evaluate print loop)
-
