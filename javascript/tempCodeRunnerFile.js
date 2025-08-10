@@ -106,7 +106,7 @@
 // console.log(age %= grace);  // age = 5%2 = 1
 
 
-//Comparison Operators:
+// 3) Comparison Operators:
  /*
    == x=y equals to (= assignment operation)
   != x!=y not equal to
@@ -126,6 +126,9 @@ if(age!=18){
 }
 
 //login validator
+//works on browser
+
+/*
 let username = prompt("Enter username:");
 let password = prompt("Enter password:");
 
@@ -137,3 +140,99 @@ if (username === correctUsername && password === correctPassword) {
 } else {
   alert("❌ Invalid username or password.");
 }
+*/
+
+//REPL (read evaluate print loop)
+
+// 4) Logical Operators:
+/*
+&& logical and (true when both conditions are true)
+|| logical or (true when at least one condition is true)
+! logical not (true when condition is false)
+*/
+
+/*
+a=b && b=a; // true
+a=b && b!=a; // false
+a=b || b=a; // true
+a=b || b!=a; // true
+a=!b; // false
+*/
+
+//Conditional Stattements
+/*
+if
+else if
+else
+switch
+*/
+
+let score = 85;
+/*
+if (score >= 90) {
+  console.log("Grade: A");
+} else if (score >= 80) {
+  console.log("Grade: B");
+} else if (score >= 70) {
+  console.log("Grade: C");
+} else {
+  console.log("Grade: F");
+}
+  */
+
+// LOOPS
+
+// 1) For Loop
+/*
+for (let i = 0; i < 5; i++) {
+console.log(i);
+}
+*/
+
+/*
+let m = 1;
+for (let i = 0; i < 100; i++){
+   console.log(m+i);
+}
+*/
+
+
+// 2) For in loop
+/*
+let obj = {name: "John", age: 30, city: "New York"}; // object
+for (let key in obj) {
+console.log(key);
+}
+*/
+
+// 3) For of loop
+/*
+for(const c of "Qazal"){
+   console.log(c); // charachtors
+   
+}
+let arr = [1, 2, 3, 4, 5]; // array
+for (let value of arr) {
+   console.log(value);
+   }
+   */
+
+
+   // 4) While Loop
+   /*
+let i = 0;
+while (i < 6) {
+   console.log(i);
+   i++;
+   }
+*/
+
+
+// 5) Do While Loop
+
+let i = 0;
+do {
+console.log(i);
+i++;
+} while (i < 6);
+ 
