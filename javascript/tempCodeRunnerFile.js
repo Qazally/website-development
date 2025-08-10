@@ -1,6 +1,8 @@
 //node file
 
-//JS Variables
+
+//JS Variables-------------------------------------------------------------------------------------------------------
+
 
 //let, var , const
 // console.log("hi this is a node file");
@@ -29,7 +31,10 @@
     //REAP
     //read , evaluate , 
 
-    //primitive datatypes:
+
+    //Primitive Datatypes:-----------------------------------------------------------------------------------------
+
+
     // 7 types(null, number, sring, boolen, symbol, undefuned,bigint)
 
     //object is a user defined datatype
@@ -46,7 +51,9 @@
 
  //node javascript/new.js
 
- //Object
+
+ //Object-----------------------------------------------------------------------------------------------------------
+
 
  let o = {
     name:"Harry",
@@ -59,21 +66,11 @@
     // console.log(o);
 
     
-    //IF-else:
-
-    let age = 5;
-
-    // if(age>=18){
-    //     console.log("you can drive");
-        
-    // }
-    // else{
-    //     console.log("you cannot drive");
-    // }
-    //console.log(age>=18?"you can drive":"you cannot drive"); // short way to write if-else in js
+    
+    //OPERATORES in JS---------------------------------------------------------------------------------------------
 
 
-    //OPERATORES in JS:
+
     // 1) Arthmetic Operatprs:
 
     let agee = 3;
@@ -159,13 +156,24 @@ a=b || b!=a; // true
 a=!b; // false
 */
 
-//Conditional Stattements
+//Conditional Stattements-------------------------------------------------------------------------------------------
 /*
 if
 else if
 else
 switch
 */
+
+let age = 5;
+
+    // if(age>=18){
+    //     console.log("you can drive");
+        
+    // }
+    // else{
+    //     console.log("you cannot drive");
+    // }
+    //console.log(age>=18?"you can drive":"you cannot drive"); // short way to write if-else in js
 
 let score = 85;
 /*
@@ -180,7 +188,9 @@ if (score >= 90) {
 }
   */
 
-// LOOPS
+
+// LOOPS-------------------------------------------------------------------------------------------------------------
+
 
 // 1) For Loop
 /*
@@ -229,10 +239,80 @@ while (i < 6) {
 
 
 // 5) Do While Loop
-
+/*
 let i = 0;
 do {
 console.log(i);
 i++;
 } while (i < 6);
- 
+ */
+
+//FUNCTIONS-----------------------------------------------------------------------------------------------------------
+// 1) Function declaration
+/*
+function greet(name) {
+console.log("Hello, " + name + "!");
+}
+greet("John");
+*/
+// 2) Function expression
+/*
+let greet = function(name) {
+console.log("Hello, " + name + "!");
+}
+greet("John");
+*/
+// 3) Arrow function
+/*
+let greet = (name) => {
+   console.log("Hello, " + name + "!");
+   }
+   greet("John");
+   */
+  // 4) Function call
+  // greet("John");
+  // 5) Function return
+  // function greet(name) {
+  //    return "Hello, " + name + "!";
+  // }
+  // console.log(greet("John"));
+  // 6) Function arguments
+  // function greet(name, age) {
+  //    console.log("Hello, " + name + "! You are " + age + "
+//  ");
+  // }
+  // greet("John", 30);
+  // 7) Function default arguments
+  // function greet(name = "John", age = 30) {
+  //    console.log("Hello, " + name + "! You are " + age + "
+  //");
+  // }
+  // greet("Jane", 25);
+  // 8) Function rest parameters
+  // function greet(name, ...args) {
+  //    console.log("Hello, " + name + "! You are " + args[0
+  // }
+  // greet("John", 30, 25, 20);
+  // 9) Function spread operator
+  // function greet(name, ...args) {
+  //    console.log("Hello, " + name + "! You are " + args[0
+  // }
+  // let args = [30, 25, 20];
+  // greet("John", ...args);
+  // 10) Function bind
+  // function greet(name) {
+  //    console.log("Hello, " + name + "!");
+  // }
+  // let obj = {'
+  //    name: "John"
+  // }
+  // greet.call(obj, "John");
+  
+  //function is used to use block of code rpeatedly
+
+  function nice(name){
+   console.log("hi"+ name +"you are nice");
+   console.log("hi"+ name +"you are good");
+   console.log("hi"+ name +"your tshirt is nice");
+  }
+  nice("qaz")
