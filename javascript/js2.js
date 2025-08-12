@@ -106,41 +106,87 @@ console.log("Path: C:\\Users\\Qazal");
  
 
 //upper case and lower case
-console.log(real_name.toUpperCase());//QAZAL
-console.log(real_name.toLowerCase());//qazal
+// console.log(real_name.toUpperCase());//QAZAL
+// console.log(real_name.toLowerCase());//qazal
 
-// //length
-console.log(real_name.length); //5
+// // //length
+// console.log(real_name.length); //5
 
-// //slice()
-console.log(real_name.slice(1, 3)); //az (1 included, 3 not included)
-console.log(real_name.slice(1)); //azal (starting from 1 to the end of the string )
+// // //slice()
+// console.log(real_name.slice(1, 3)); //az (1 included, 3 not included)
+// console.log(real_name.slice(1)); //azal (starting from 1 to the end of the string )
 
-// //replace()
-console.log(real_name.replace("al", "334")); //Qazal
+// // //replace()
+// console.log(real_name.replace("al", "334")); //Qazal
 
-// //concat()
-console.log(real_name.concat(" ", friend)); //qazal zahra
-console.log(real_name.concat(" ", friend, " ayesha")); //qazal zahra ayesha
+// // //concat()
+// console.log(real_name.concat(" ", friend)); //qazal zahra
+// console.log(real_name.concat(" ", friend, " ayesha")); //qazal zahra ayesha
 
-//trim
-let b="   Ayesha     "
-console.log(b.trim()); //Ayesha (removes whitespaces)
+// //trim
+// let b="   Ayesha     "
+// console.log(b.trim()); //Ayesha (removes whitespaces)
 
-//charAt(index)
-console.log(real_name.charAt(0)); //q
-//charCodeAt(index)
-console.log(real_name.charCodeAt(0)); //113 
+// //charAt(index)
+// console.log(real_name.charAt(0)); //q
+// //charCodeAt(index)
+// console.log(real_name.charCodeAt(0)); //113 
 
-//indexOf()
-console.log(real_name.indexOf("a")); //1
-//lastIndexOf()
-console.log(real_name.lastIndexOf("a")); //3
-//localeCompare()
-console.log(real_name.localeCompare("qazal")); //0
-//match()
-console.log(real_name.match(/a/)); //["a", index: 2, input:
-//search()
-console.log(real_name.search(/a/)); //1
+// //indexOf()
+// console.log(real_name.indexOf("a")); //1
+// //lastIndexOf()
+// console.log(real_name.lastIndexOf("a")); //3
+// //localeCompare()
+// console.log(real_name.localeCompare("qazal")); //0
+// //match()
+// console.log(real_name.match(/a/)); //["a", index: 2, input:
+// //search()
+// console.log(real_name.search(/a/)); //1
 
+
+/*
+create a business name generator by combinig list of adjectives, shop name and another name
+Adjedtives :
+crazy
+amazing 
+fire
+
+shop name:
+engine 
+foods
+garkments
+
+anoter word
+bross
+limited
+hub
+
+without using arrays4
+*/
+
+
+/*
+let random = Math.random();
+let adjective = "crazy";
+if (random < 0.33) {
+  adjective = "amazing";
+  } else if (random < 0.66) {
+    adjective = "fire";
+  }
+    let shop_name = "engine";
+  if (random < 0.33) {
+      shop_name = "foods";
+  } else if (random < 0.66) {
+    shop_name = "garkments";
+  }
+   let another_name = "bross";
+   if (random < 0.33) {
+    another_name = "limited";
+   } else if (random < 0.66) {
+   another_name = "hub";
+   }
+   console.log(adjective + " " + shop_name + " " + another_name);
+   //output: crazy engine bross
+   //output: amazing foods limited
+    */
 
