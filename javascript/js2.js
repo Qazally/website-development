@@ -208,7 +208,7 @@ console.log(arr[0]);//10
 console.log(arr.toString()); //10,2,3,5,7
 
 //2.join() method
-console.log(arr.join(" and ")); //10 and2 and 3 and 5 and 7
+console.log(arr.join(" and ")); //10 and 2 and 3 and 5 and 7
 
 //3.pop() method
 //removes element from the end of array
@@ -255,32 +255,31 @@ console.log(arr.concat(arr1,arr2)); //[ 'qaz', 2, 4, 5, empty, 1, 2, 3, 4, 5, 6 
 console.log(arr);//[ 'qaz', 2, 4, 5, <1 empty item> ]
 console.log(arr.length);//5
 
-//sort()method
+//9.sort()method
 
 let numbers = [4, 2, 9, 1];
 numbers.sort();
 console.log(numbers); // [1, 2, 4, 9]
 
-
-
-//5.splice() method
+//10.splice() method
 //removes elements from array and adds new elements
-arr.splice(2,1,3);
-console.log(arr);//[1, 2, 3, 5, 7
+arr.splice(2,1,3);//at index 2 removes 1 element also add 3 at index 2
+console.log(arr);//[qaz, 2, 3, 5, empty]
 console.log(arr.length);//5
-//6.indexOf() method
-//returns index of first occurrence of element in array
-arr.indexOf(5);
-//returns 3
-//7.lastIndexOf() method
-//returns index of last occurrence of element in array
-arr.lastIndexOf(5);
-//returns 3
-//8.slice() method
-//returns new array with elements from start to end index
-arr.slice(1,3);
-//returns [2, 3]
-//9.concat() method
-//returns new array with elements from array1 and array2
 
-  
+//11.indexOf() method
+//returns index of first occurrence of element in array
+console.log(arr.indexOf(5)); //3
+
+//12.lastIndexOf() method
+//returns index of last occurrence of element in array
+console.log(arr.lastIndexOf(5));//3
+
+//13.slice() method
+//Copy or extract items
+//returns new array with elements from start to end index
+console.log(arr.slice(1,3));//include att index 1 upto itemes at index 3 but excluding index 3
+//returns [2, 3]
+
+
+
